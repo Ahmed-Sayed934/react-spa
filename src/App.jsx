@@ -8,14 +8,14 @@ import Layout from "./Components/Layout/Layout";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "",
+      path: "/react-spa/",
       element: <Layout />,
       children: [
         { path: "", element: <Home /> },
-        { path: "home", element: <Home /> },
-        { path: "about", element: <About /> },
-        { path: "portfolio", element: <Portfolio /> },
-        { path: "contact", element: <Contact /> },
+        { path: "/react-spa/home", element: <Home /> },
+        { path: "/react-spa/about", element: <About /> },
+        { path: "/react-spa/portfolio", element: <Portfolio /> },
+        { path: "/react-spa/contact", element: <Contact /> },
         {
           path: "*",
           element: (
