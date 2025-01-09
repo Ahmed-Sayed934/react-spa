@@ -1,0 +1,72 @@
+:root {
+  --main-color: #2c3e50;
+  --second-color: #1abc9c;
+  --text-color: #fff;
+}
+#navBar {
+  background-color: var(--main-color);
+}
+.active {
+  background-color: var(--second-color) !important;
+  border-radius: 5px;
+}
+section {
+  background-color: var(--second-color);
+  .line {
+    width: 80px;
+    height: 4px;
+  }
+}
+/* !----------->Home<---------------- */
+
+#home {
+  .avatar {
+    width: 20%;
+  }
+}
+
+/* !----------->ABOUT<----------------
+#about {
+} */
+/* !----------->PORTFOLIO<---------------- */
+#portfolio {
+  h1,
+  .starRole i {
+    color: var(--main-color);
+  }
+  .starRole .line {
+    background-color: var(--main-color);
+  }
+}
+.overlay {
+  background-color: var(--second-color);
+  opacity: 0;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+.inner:hover .overlay {
+  opacity: 80%;
+}
+
+/* !----------->CONTACT<---------------- */
+#contact {
+  background-color: #fff;
+  h1,
+  .starRole i {
+    color: var(--main-color);
+  }
+  .starRole .line {
+    background-color: var(--main-color);
+  }
+}
+
+/* !----------->Footer<---------------- */
+footer {
+  background-color: var(--main-color);
+  .inner i {
+    cursor: pointer;
+  }
+}
+.copyRights {
+  background-color: #0b1015;
+}
