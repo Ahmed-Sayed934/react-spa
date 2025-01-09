@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container">
           <Link
             className="navbar-brand text-white fw-bold fs-2 text-uppercase"
-            to={"/"}
+            to={"/react-spa/"}
           >
             Start FrameWork
           </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <NavLink
                   className="nav-link text-white fw-semibold fs-6 text-uppercase"
                   aria-current="page"
-                  to={"/about"}
+                  to={"/react-spa/about"}
                 >
                   About
                 </NavLink>
@@ -36,7 +36,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link text-white fw-semibold fs-6 text-uppercase"
-                  to={"/portfolio"}
+                  to={"/react-spa/portfolio"}
                 >
                   Portfolio
                 </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link text-white fw-semibold fs-6 text-uppercase"
-                  to={"/contact"}
+                  to={"/react-spa/contact"}
                 >
                   Contact
                 </NavLink>
